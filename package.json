@@ -1,0 +1,14 @@
+{
+  "name": "full-stack-recipe-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd recipe-react-app/backend && node server.js\" \"cd recipe-react-app && yarn start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
